@@ -1,0 +1,58 @@
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba($color: #000000, $alpha: 0.56);
+  .modal {
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 38px 30px;
+    background: #f2f2f2;
+    &__close {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      right: -40px;
+      font-size: 41px;
+      line-height: 21px;
+      color: $main-color;
+    }
+    &__subtitle {
+      margin: 0;
+      text-align: center;
+      font-size: 19px;
+      line-height: 19px;
+      font-weight: 700;
+    }
+    &__description {
+      display: block;
+      margin: 11px 0 0 0;
+      text-align: center;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 500;
+    }
+  }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    text-align: center;
+    margin: 15px 0 0 0;
+  }
+}
+
+#consultation,
+#order,
+#thanks {
+  display: none;
+}
+
+/* заказать звонок
+заказать консультацию */

@@ -1,0 +1,63 @@
+.benefits {
+  min-height: 470px;
+  padding: 69px 0 78px 0;
+  background-color: #f6f6f6;
+  &__wrapper {
+    margin: 65px 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    max-width: 247px;
+    text-align: center;
+    span {
+      margin: 38px 0 0;
+      display: block;
+      color: #0d0d0d;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    p {
+      margin: 29px 0 0;
+      color: #0d0d0d;
+      font-size: 14px;
+      font-weight: 300;
+      a {
+        text-decoration: underline;
+        color: $main-color;
+        transition: 0.5s all;
+        text-transform: uppercase;
+        &:hover {
+          color: $hover-color;
+        }
+      }
+    }
+  }
+  &__item-cup-img {
+    &_animated {
+      // animation: cup alternate 1.1s linear infinite;
+      animation-name: cup;
+      animation-direction: alternate;
+      animation-duration: 1.1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  }
+  &__item-heart-img {
+    &_animated {
+      animation-name: heartbeat;
+      animation-duration: 1.1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  }
+  &__item-shoes-img {
+    &_animated {
+      animation-name: shoes;
+      animation-direction: alternate;
+      animation-duration: 1.1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  }
+}

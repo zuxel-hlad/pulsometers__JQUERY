@@ -1,0 +1,55 @@
+.references {
+  padding: 0 0 71px 0;
+  .title {
+    margin: 0 0;
+  }
+  &__wrapper {
+    margin: 70px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-item {
+    display: flex;
+    align-items: flex-start;
+    width: 889px;
+    &__avatar {
+      margin: 0 62px 0 0;
+      width: 169px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__user-name {
+      margin: 0;
+      color: #0d0d0d;
+      font-size: 18px;
+      line-height: 10px;
+      font-weight: 700;
+    }
+    &__marafon-counter {
+      display: block;
+      margin: 10px 0 0 0;
+      color: #646464;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    &__description {
+      margin: 19px 0 0 0;
+      color: #0d0d0d;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 300;
+    }
+    &__sub-description {
+      display: block;
+      margin: 24px 0 0 0;
+    }
+  }
+  &__devider {
+    margin: 53px 0 51px 0;
+    width: 940px;
+    height: 1px;
+    background-color: #f6f6f6;
+  }
+}
